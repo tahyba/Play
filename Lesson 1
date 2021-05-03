@@ -1,0 +1,89 @@
+# TASK 1
+
+import random  
+user_name = str(input("Enter your name : "))
+user_input = int(input("Enter an Interger : "))
+x = random.randint(1,10)
+if (x==user_input):
+print("You have guessed the correct number")
+print(x)
+else:
+print("Sorry, Please try  again")
+   
+    
+    
+# TASK 2
+
+user_input = int(input('Enter any number between 1 and 100: '))
+if user_input 1 <= 25:
+print('Don’t worry if you miss a gym session. Everything will work out.')
+elif user_input 26 <= 50:
+print('I was interrogated over the theft of a cheese toastie. Man, they really grilled me.')
+elif user_input 51 <= 75:
+print('What do you call a fish with no eye? Fsh!')
+elif user_input 76 <=100:
+print ('I’m thinking about removing my spine. I feel like it’s only holding me back.')
+
+
+
+# TASK 3
+
+print ("Please enter the following:")
+mains=str(input("What is your favourite maincourse?:"))
+starter=str(input("What is your favourite starter?:"))
+dessert=str(input("What is your favourite dessert?:"))
+drink=str(input("Lastly what is you favourite drinks?:"))
+print("Your favourite meal to start with is", starter,"followed by", mains "and then" dessert,"with the glass of",drink)
+print("Have a pleasant day")
+
+
+
+# Task 4
+
+year = 2021
+price=2000
+percent=10/100
+print("In 2021 Asset value is", price," & depreciation is at " percent)
+depreciation = 0.1 
+A= 0
+while A< item_price:
+dep_price = int(item_price * depreciation)  
+dep_value = int(item_price - depreciation_price)     
+item_price = int(dep_value)
+A + = 1
+year + = 1
+print( "In",year, "the motorbike value will be £" item_price, "depricating at £",deprication_price)
+if item_price >= 1000:
+print ("Limit reached")
+
+
+
+
+# Task 5
+
+First_number =int(input("Enter the 1st integer value "))
+Second_number =int(input("Enter the 2nd integer value "))
+
+print("Enter a for addition")
+print("Enter b for subtraction")
+print("Enter c for Multiplication")
+print("Enter d for Division")
+print("Enter e for Modulo")
+print("Enter f for Root of")
+
+Sign= str(input("Enter the choice :"))
+
+if Sign=="a":
+print("Addition", First_number+Second_number)
+elif Sign=="b":
+print("Subtraction", First_number-Second_number)
+elif Sign=="c":
+print("Multiplication", First_number*Second_number)
+elif Sign=="d":
+print("Division", First_number/Second_number)
+elif Sign=="e":
+print("Modulo", First_number//Second_number)
+elif Sign=="f":
+print("Power to", First_number**Second_number)
+else:
+print("Please try again")
