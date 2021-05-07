@@ -1,0 +1,80 @@
+# TASK 1 
+# Convert DFD into Code
+
+
+def procedure_1 ()
+user_input = str(input('Are you ready to order?'))
+if user_input == 'Yes':
+    print str('Lets take down your order')
+elif user_input == 'No':
+    print ('Let me know when you are ready')
+else:
+    print ('Please answer with: Yes or No')
+    
+    
+    
+def procedure_2 (MainOption, SideOption, DrinkOption)
+  
+1 = 'Hawaiian pizza'
+2 = 'Ham & Cheese pizza '
+3 = 'Vegeterian pizza'
+4 = 'Pepperoni pizza'
+5 = 'Magherita pizza'
+
+MainOption = int (input ('Select between pizza options 1-5 to order:))
+elif MainOption == 1:
+    print ( 'You have ordered a Hawaiian pizza, £7.50')
+elif MainOption == 2:
+    print ( 'You have ordered a Ham & Cheese pizza, £9.00')
+elif MainOption == 3
+    print ( 'You have ordered a Vegeterian pizza, £8.50')
+elif MainOption == 4
+    print ( 'You have ordered a Pepperoni pizza, £7.50')
+elif MainOption == 5
+    print ( 'You have ordered a Magherita pizza, £8.00')
+else:
+    print ( 'Sorry input not recognised, please choose between 1-5 to order')
+
+
+6 = 'Fries'
+7 = 'Wedges'
+8 = 'Colesaw'
+9 = 'no sides'
+
+SideOptions = int (input ('Select between side options 6-9, to add to order:))
+elif SideOption == 6:
+      print ( 'With Fries')
+elif SideOption == 7:
+      print ( 'With Wedges')
+elif SideOption == 8:
+      print ( 'With Colesaw')
+elif SideOption == 9:
+      print ( 'With no sides')
+else:
+      print ( 'Sorry input not recognised, please choose between 6-9 to order:))
+      
+
+10 = 'Water'
+11 = 'Soda'
+12 = 'no Drink'
+
+DrinkOptions = int (input ('Select between drink options 10-12, to add to order:))   
+elif DrinkOption == 10:
+      print ( 'and water')
+elif DrinkOption == 11:
+      print ( 'and soda')
+elif DrinkOption == 12:
+      print ( 'and no drink')
+else:
+      print ('Sorry input not recognised, please choose between 10-12 to order:))
+      
+
+Output = 'Hello, You ordered a' + MainOption + 'with' + SideOption + 'and' + DrinkOption + 'thank you so much' 
+
+return output
+
+
+
+   
+
+
