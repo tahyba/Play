@@ -13,7 +13,7 @@ else:
     
     
     
-def procedure_2 (MainOption, SideOption, DrinkOption)
+def function_2 (MainOption, SideOption, DrinkOption)
   
 1 = 'Hawaiian pizza'
 2 = 'Ham & Cheese pizza '
@@ -22,7 +22,7 @@ def procedure_2 (MainOption, SideOption, DrinkOption)
 5 = 'Magherita pizza'
 
 MainOption = int (input ('Select between pizza options 1-5 to order:))
-elif MainOption == 1:
+if MainOption == 1:
     print ( 'You have ordered a Hawaiian pizza, £7.50')
 elif MainOption == 2:
     print ( 'You have ordered a Ham & Cheese pizza, £9.00')
@@ -42,7 +42,7 @@ else:
 9 = 'no sides'
 
 SideOptions = int (input ('Select between side options 6-9, to add to order:))
-elif SideOption == 6:
+if SideOption == 6:
       print ( 'With Fries')
 elif SideOption == 7:
       print ( 'With Wedges')
@@ -59,7 +59,7 @@ else:
 12 = 'no Drink'
 
 DrinkOptions = int (input ('Select between drink options 10-12, to add to order:))   
-elif DrinkOption == 10:
+if DrinkOption == 10:
       print ( 'and water')
 elif DrinkOption == 11:
       print ( 'and soda')
@@ -73,7 +73,9 @@ Output = 'Hello, You ordered a' + MainOption + 'with' + SideOption + 'and' + Dri
 
 return output
 
-
+def procedure_2 ():
+    message = def function_2 (MainOption, SideOption, DrinkOption)
+print (message)
 
    
 
